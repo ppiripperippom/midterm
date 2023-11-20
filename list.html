@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <style>
+header {
+            background-color: black;
+            padding: 20px 0;
+            text-align: center;
+            position: relative; /* 부모로부터의 상대적인 위치 설정 */
+        }
+
+        .logo img {
+            width: 700px;
+            height: 100px;
+        }
+
+        .small-logo {
+            position: absolute;
+            top: 40px;
+            left: 50px;
+            max-width: 50px;
+            max-height: 50px;
+        }
+
+        nav {
+            background-color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FHFAA.register</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="main-logo" src="logo.PNG" alt="메인 로고">
+            <img class="small-logo" src="logos.jpg" alt="작은 로고">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="3000searchlove.html"><strong>홈</strong></a></li>
+                <li><a href="adopt.html"><strong>입양하기</strong></a></li>
+                <li><a href="list.html"><strong>동물 등록 문의 게시판</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="board_wrap">
+        <div class="board_title">
+            <strong>동물 등록 문의 게시판</strong>
+            <p>빠르게 확인하겠습니다.</p>
+        </div>
+        <div class="board_list_wrap">
+            <div class="board_list">
+                <div class="top">
+                    <div class="num">번호</div>
+                    <div class="title">제목</div>
+                    <div class="writer">글쓴이</div>
+                    <div class="date">작성일</div>
+                    <div class="count">조회</div>
+                </div>
+                <div>
+                    <div class="num">5</div>
+                    <div class="title"><a href="view5.html">창녕시 귀여운 말티즈</a></div>
+                    <div class="writer">김가연</div>
+                    <div class="date">2023.11.15</div>
+                    <div class="count">45</div>
+                </div>
+                <div>
+                    <div class="num">4</div>
+                    <div class="title"><a href="view4.html">창원시 멋진 불독 주인 찾아요!!</a></div>
+                    <div class="writer">이나연</div>
+                    <div class="date">2023.11.10</div>
+                    <div class="count">31</div>
+                </div>
+                <div>
+                    <div class="num">3</div>
+                    <div class="title"><a href="view3.html">경기도 이천시 고양이입니다.</a></div>
+                    <div class="writer">박동균</div>
+                    <div class="date">2023.11.09</div>
+                    <div class="count">12</div>
+                </div>
+                <div>
+                    <div class="num">2</div>
+                    <div class="title"><a href="view2.html">풍덕동무인아아스크림가게 앞에서 발견한 비숑프리제이에요</a></div>
+                    <div class="writer">최도연</div>
+                    <div class="date">22023.11.08</div>
+                    <div class="count">18</div>
+                </div>
+                <div>
+                    <div class="num">1</div>
+                    <div class="title"><a href="view1.html">고양시 고양이에요!(브리티시 쇼트헤어)</a></div>
+                    <div class="writer">정민주</div>
+                    <div class="date">2023.11.08</div>
+                    <div class="count">26</div>
+                </div>
+            </div>
+            <div class="board_page">
+                <a href="#" class="bt first"></a>
+                <a href="#" class="bt prev"></a>
+                <a href="#" class="num on">1</a>
+                <a href="#" class="bt next">></a>
+                <a href="#" class="bt last">>></a>
+            </div>
+            <div class="bt_wrap">
+                <a href="write.html" class="on">등록</a>
+                <!--<a href="#">수정</a>-->
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
